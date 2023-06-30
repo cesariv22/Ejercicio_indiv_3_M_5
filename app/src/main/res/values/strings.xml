@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ejercicio_indiv_3_M_5</string>
+    <string name="txt_welcome">Bienvenido a Logo Trivia. Ingresa tu nombre para comenzar...</string>
+    <string name="txname">Escribe tu nombre</string>
+    <string name="btn_init">COMENZAR</string>
+    <string name="txt_hi">Hola</string>
+    <string name="question">¿A que logo pertenece la imagen?</string>
+    <string name="descrip_img_whatsapp">Logo de whatsapp</string>
+    <string name="option_face">Pertenece a Facebook</string>
+    <string name="option_twitter">Pertenece a Twitter</string>
+    <string name="option_wap">Pertenece a Whatsapp</string>
+    <string name="option_insta">Pertenece a Instagram</string>
+    <string name="btn_send">ENVIAR</string>
+    <string name="positive_answer">¡Genial , Ganaste!</string>
+    <string name="btn_try_again">INTENTALO OTRA VEZ</string>
+    <string name="negative_answer">Ohh...Te equivocaste. ¡Intentalo otra vez!</string>
+    <string name="back_home">VOLVER</string>
+</resources>
