@@ -54,32 +54,32 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/rbFacebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_face" />
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/rbTwitter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_twitter" />
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/rbWhatsapp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_wap" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/rbInstagram"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option_insta" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"

@@ -16,15 +16,9 @@ import com.example.ejercicio_indiv_3_m_5.databinding.Fragment1Binding;
 public class Fragment1 extends Fragment {
     Fragment1Binding binding;
 
-    public Fragment1 newInstance() {
-       Fragment1 fragment1 = new Fragment1();
-       return fragment1 ;
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -35,6 +29,7 @@ public class Fragment1 extends Fragment {
         binding.btnComenzar.setOnClickListener(view -> {
             if(!binding.txtName.getText().toString().isEmpty()){
                addFragment2(binding.txtName.getText().toString());
+               addFragment4();
             } else {
                 Toast.makeText(getContext(), "Debes ingresar tu nombre",Toast.LENGTH_LONG).show();
             }
@@ -42,10 +37,15 @@ public class Fragment1 extends Fragment {
         return binding.getRoot();
     }
 
-
     private void addFragment2(String name) {
         Bundle bundle= new Bundle();
         bundle.putString("param1", name);
         Navigation.findNavController(binding.getRoot()).navigate(R.id.action_fragment1_to_fragment2,bundle);
     }
+    private void addFragment4() {
+        Bundle bundle2 = new Bundle();
+        bundle2.putString("nombre", (binding.txtName.getText().toString()));
+        getParentFragmentManager().setFragmentResult("dato", bundle2);
+    }
+
 }

@@ -32,8 +32,8 @@
         android:label="fragment_3"
         tools:layout="@layout/fragment_3" >
         <action
-            android:id="@+id/action_fragment3_to_fragment2"
-            app:destination="@id/fragment2" />
+            android:id="@+id/action_fragment3_to_fragment1"
+            app:destination="@id/fragment1" />
     </fragment>
     <fragment
         android:id="@+id/fragment4"
@@ -41,7 +41,7 @@
         android:label="fragment_4"
         tools:layout="@layout/fragment_4" >
         <action
-            android:id="@+id/action_fragment4_to_fragment2"
-            app:destination="@id/fragment2" />
+            android:id="@+id/action_fragment4_to_fragment1"
+            app:destination="@id/fragment1" />
     </fragment>
 </navigation>
